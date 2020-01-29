@@ -24,7 +24,17 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
-				<configuration>
+                <configuration>
+				<cloudHubDeployment>
+				<muleVersion>4.2.2</muleVersion>
+				<username>abadi2121</username>
+				<password>Abe@0913</password>
+				<environment>Sandbox</environment>
+				<url>https://anypoint.mulesoft.com/</url>
+				<applicationName>ci-cd-projects</applicationName>
+				<workers>1</workers>
+				<workerType>Micro</workerType>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
